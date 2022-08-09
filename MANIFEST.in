@@ -1,0 +1,11 @@
+include dash_before_after/dash_before_after.min.js
+include dash_before_after/dash_before_after.min.js.map
+include dash_before_after/async-*.js
+include dash_before_after/async-*.js.map
+include dash_before_after/*-shared.js
+include dash_before_after/*-shared.js.map
+include dash_before_after/metadata.json
+include dash_before_after/package-info.json
+include README.md
+include LICENSE
+include package.json

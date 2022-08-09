@@ -1,0 +1,109 @@
+{
+  "src/lib/components/BeforeAfter.react.js": {
+    "description": "Before After Image Slider based on https://github.com/sneas/img-comparison-slider",
+    "displayName": "BeforeAfter",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "before": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Before image src"
+      },
+      "after": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "After image src"
+      },
+      "height": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "image height - default \"auto\" for responsive images.",
+        "defaultValue": {
+          "value": "'auto'",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "image width - default \"100%\" for responsive images.",
+        "defaultValue": {
+          "value": "'100%'",
+          "computed": false
+        }
+      },
+      "hover": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Hover:  Automatic slide on mouse over. \"hover\" or None",
+        "defaultValue": {
+          "value": "'hover'",
+          "computed": false
+        }
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Value The divider position can be specified as a percentage. \"0\" to \"100\"",
+        "defaultValue": {
+          "value": "'50'",
+          "computed": false
+        }
+      },
+      "before_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Defines CSS styles of the before image."
+      },
+      "after_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Defines CSS styles of the after image."
+      },
+      "beforeClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "className of before image. Often used with CSS to style elements with common properties."
+      },
+      "afterClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "className of after image. Often used with CSS to style elements with common properties."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
